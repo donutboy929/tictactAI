@@ -1,0 +1,3 @@
+[submodule "graph-notebook"]
+	path = graph-notebook
+	url = ./graph-notebook
