@@ -1,0 +1,82 @@
+[
+   {
+      "id":"1",
+      "type":"CORE_SCENE_JOIN",
+      "userId":"1",
+      "sessionId":"1",
+      "timestamp":1635745544,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"2",
+      "type":"CORE_SCENE_LEAVE",
+      "userId":"1",
+      "sessionId":"1",
+      "timestamp":1635745599,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"3",
+      "type":"CORE_SCENE_JOIN",
+      "userId":"2",
+      "sessionId":"2",
+      "timestamp":1635745541,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"4",
+      "type":"CORE_SCENE_LEAVE",
+      "userId":"2",
+      "sessionId":"2",
+      "timestamp":1635745744,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"5",
+      "type":"CORE_SCENE_JOIN",
+      "userId":"3",
+      "sessionId":"3",
+      "timestamp":1635740141,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"6",
+      "type":"CORE_SCENE_LEAVE",
+      "userId":"3",
+      "sessionId":"3",
+      "timestamp":1635740265,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"7",
+      "type":"CORE_SCENE_JOIN",
+      "userId":"4",
+      "sessionId":"4",
+      "timestamp":1635741341,
+      "data":{
+         
+      }
+   },
+   {
+      "id":"8",
+      "type":"CORE_SCENE_LEAVE",
+      "userId":"4",
+      "sessionId":"4",
+      "timestamp":1635741542,
+      "data":{
+         
+      }
+   }
+]
