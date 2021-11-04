@@ -28,8 +28,8 @@ def random_date(start, end, prop):
 
 
 # start
-header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp']
-data = list()
+header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp', 'data']
+data_csv = list()
 id = 0
 
 for i in range(100):
@@ -39,15 +39,21 @@ for i in range(100):
     sceneId = random.randrange(20)
     timestamp = random_date(
         "2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
+    data = {}
+    
     for j in range(events_this_sesh):
         id = id + 1
         type = ''
+        data = {}
         if j == 0:
             type = 'CORE_SCENE_JOIN' 
+            data['rating'] = None
         elif j == 1:
             type = 'CORE_SCENE_LEAVE'
-        else:
+            data['rating'] = None
+        elif j==2:
             type = 'CORE_SCENE_RATE'
+            data['rating'] = random.randrange(5)
 
         if j == 1:
             timestamp = datetime.datetime.strptime(
@@ -56,8 +62,8 @@ for i in range(100):
             timestamp = datetime.datetime.strptime(
                 str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(minutes=random.randrange(2), seconds=random.randrange(59))
 
-        data.append([id, type, userId, sessionId, sceneId, datetime.datetime.strptime(
-            str(timestamp), '%Y-%m-%d %H:%M:%S')])
+        data_csv.append([id, type, userId, sessionId, sceneId, datetime.datetime.strptime(
+            str(timestamp), '%Y-%m-%d %H:%M:%S'), data])
 
     
 
@@ -68,7 +74,7 @@ with open('dummy.csv', 'w', encoding='UTF8', newline='') as f:
     writer.writerow(header)
 
     # write multiple rows
-    writer.writerows(data)
+    writer.writerows(data_csv)
 
 # save as json
 '''json_data = {}
