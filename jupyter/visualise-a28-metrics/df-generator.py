@@ -4,6 +4,7 @@ from os import times
 import random
 import time
 import datetime
+from numpy import random as rnd
 
 # helper functions
 def str_time_prop(start, end, time_format, prop):
@@ -31,14 +32,16 @@ def random_date(start, end, prop):
 header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp', 'data']
 data_csv = list()
 id = 0
+timestamp = random_date(
+    "2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
 
 for i in range(100):
     events_this_sesh = random.randint(2, 3)
     userId = random.randrange(10)
     sessionId = i
     sceneId = random.randrange(20)
-    timestamp = random_date(
-        "2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
+    timestamp = datetime.datetime.strptime(
+        str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(hours=int(rnd.binomial(n=7, p=0.2, size=1)[0]), minutes=random.randrange(59), seconds=random.randrange(59))
     data = {}
     
     for j in range(events_this_sesh):
@@ -53,7 +56,7 @@ for i in range(100):
             data['rating'] = None
         elif j==2:
             type = 'CORE_SCENE_RATE'
-            data['rating'] = random.randrange(5)
+            data['rating'] = rnd.binomial(n=5, p=0.6, size=1)[0]
 
         if j == 1:
             timestamp = datetime.datetime.strptime(
