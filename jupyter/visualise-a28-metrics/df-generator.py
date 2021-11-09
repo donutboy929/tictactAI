@@ -32,6 +32,7 @@ def random_date(start, end, prop):
 rating_categories = ['Network', 'Collab Tools', 'Chat', 'Cat4', 'Cat5', 'Cat6']
 header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp', 'data']
 data_csv = list()
+data_json = list()
 id = 0
 timestamp = datetime.datetime(2020, 1, 2, 9, 0, 0, 0)
 # random_date("2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
@@ -77,6 +78,12 @@ for i in range(7): # number of sessions
 
             data_csv.append([id, type, userId, sessionId, sceneId, datetime.datetime.strptime(
                 str(this_timestamp), '%Y-%m-%d %H:%M:%S'), data])
+            
+            temp_json_vals = [id, type, userId, sessionId, sceneId, time.mktime(datetime.datetime.strptime(
+                str(this_timestamp), '%Y-%m-%d %H:%M:%S').timetuple()), data]
+            json_dict = dict(zip(header, temp_json_vals))
+            data_json.append(json_dict)
+            
     
 
 with open('dummy.csv', 'w', encoding='UTF8', newline='') as f:
@@ -89,13 +96,7 @@ with open('dummy.csv', 'w', encoding='UTF8', newline='') as f:
     writer.writerows(data_csv)
 
 # save as json
-'''json_data = {}
-
-with open('dummy.csv') as csvFile:
-    csvReader = csv.DictReader(csvFile)
-    for rows in csvReader:
-        id = rows['id']
-        json_data[id] = rows
+json_data = {}
 
 with open('dummy.json', 'w') as jsonFile:
-    jsonFile.write(json.dumps(json_data, indent = 4))'''
+    jsonFile.write(json.dumps(data_json, default= str, indent= 4))

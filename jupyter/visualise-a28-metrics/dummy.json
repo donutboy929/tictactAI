@@ -1,802 +1,2126 @@
-{
-    "0": {
-        "id": "0",
+[
+    {
+        "id": 1,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "0.0",
-        "sceneId": "2",
-        "timestamp": "2020-04-14 22:06:56"
+        "userId": 0,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578013928.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "1": {
-        "id": "1",
+    {
+        "id": 2,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "0.5",
-        "sceneId": "5",
-        "timestamp": "2024-11-16 15:20:41"
+        "userId": 0,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578025355.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "2": {
-        "id": "2",
+    {
+        "id": 3,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "1.0",
-        "sceneId": "13",
-        "timestamp": "2020-06-29 14:10:39"
+        "userId": 1,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578023697.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "3": {
-        "id": "3",
+    {
+        "id": 4,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "1.5",
-        "sceneId": "0",
-        "timestamp": "2020-06-04 15:33:05"
+        "userId": 1,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578032639.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "4": {
-        "id": "4",
+    {
+        "id": 5,
         "type": "CORE_SCENE_JOIN",
-        "userId": "8",
-        "sessionId": "2.0",
-        "sceneId": "10",
-        "timestamp": "2022-02-21 21:19:38"
+        "userId": 2,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578021399.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "5": {
-        "id": "5",
+    {
+        "id": 6,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "8",
-        "sessionId": "2.5",
-        "sceneId": "8",
-        "timestamp": "2024-07-21 04:24:20"
+        "userId": 2,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578038707.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "6": {
-        "id": "6",
+    {
+        "id": 7,
+        "type": "CORE_SCENE_RATE",
+        "userId": 2,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578038748.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 8,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "3.0",
-        "sceneId": "10",
-        "timestamp": "2022-06-12 14:04:02"
+        "userId": 3,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578019039.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "7": {
-        "id": "7",
+    {
+        "id": 9,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "3.5",
-        "sceneId": "0",
-        "timestamp": "2022-10-25 19:08:42"
+        "userId": 3,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578036776.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "8": {
-        "id": "8",
+    {
+        "id": 10,
         "type": "CORE_SCENE_JOIN",
-        "userId": "3",
-        "sessionId": "4.0",
-        "sceneId": "9",
-        "timestamp": "2021-05-23 08:34:42"
+        "userId": 4,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578015096.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "9": {
-        "id": "9",
+    {
+        "id": 11,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "3",
-        "sessionId": "4.5",
-        "sceneId": "3",
-        "timestamp": "2023-10-12 00:29:39"
+        "userId": 4,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578025404.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "10": {
-        "id": "10",
+    {
+        "id": 12,
+        "type": "CORE_SCENE_RATE",
+        "userId": 4,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578025453.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 13,
         "type": "CORE_SCENE_JOIN",
-        "userId": "8",
-        "sessionId": "5.0",
-        "sceneId": "2",
-        "timestamp": "2023-04-07 16:14:50"
+        "userId": 5,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578017822.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "11": {
-        "id": "11",
+    {
+        "id": 14,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "8",
-        "sessionId": "5.5",
-        "sceneId": "8",
-        "timestamp": "2023-12-09 13:00:10"
+        "userId": 5,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578031062.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "12": {
-        "id": "12",
+    {
+        "id": 15,
+        "type": "CORE_SCENE_RATE",
+        "userId": 5,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578031079.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 16,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "6.0",
-        "sceneId": "14",
-        "timestamp": "2021-02-26 20:46:26"
+        "userId": 6,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578018061.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "13": {
-        "id": "13",
+    {
+        "id": 17,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "6.5",
-        "sceneId": "5",
-        "timestamp": "2021-09-15 19:13:27"
+        "userId": 6,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578021354.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "14": {
-        "id": "14",
+    {
+        "id": 18,
+        "type": "CORE_SCENE_RATE",
+        "userId": 6,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578021411.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Collab Tools"
+        }
+    },
+    {
+        "id": 19,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "7.0",
-        "sceneId": "6",
-        "timestamp": "2021-03-03 19:45:26"
+        "userId": 7,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578017620.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "15": {
-        "id": "15",
+    {
+        "id": 20,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "7.5",
-        "sceneId": "2",
-        "timestamp": "2024-06-13 19:00:35"
+        "userId": 7,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578025973.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "16": {
-        "id": "16",
+    {
+        "id": 21,
         "type": "CORE_SCENE_JOIN",
-        "userId": "3",
-        "sessionId": "8.0",
-        "sceneId": "1",
-        "timestamp": "2023-03-05 13:51:26"
+        "userId": 8,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578014944.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "17": {
-        "id": "17",
+    {
+        "id": 22,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "3",
-        "sessionId": "8.5",
-        "sceneId": "3",
-        "timestamp": "2024-01-08 23:31:53"
+        "userId": 8,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578022677.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "18": {
-        "id": "18",
+    {
+        "id": 23,
+        "type": "CORE_SCENE_RATE",
+        "userId": 8,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578022718.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat4"
+        }
+    },
+    {
+        "id": 24,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "9.0",
-        "sceneId": "15",
-        "timestamp": "2021-12-18 18:13:00"
+        "userId": 9,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578018645.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "19": {
-        "id": "19",
+    {
+        "id": 25,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "9.5",
-        "sceneId": "2",
-        "timestamp": "2022-10-26 05:37:27"
+        "userId": 9,
+        "sessionId": 0,
+        "sceneId": 5,
+        "timestamp": 1578025858.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "20": {
-        "id": "20",
+    {
+        "id": 26,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "10.0",
-        "sceneId": "15",
-        "timestamp": "2021-09-23 02:14:46"
+        "userId": 0,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578101762.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "21": {
-        "id": "21",
+    {
+        "id": 27,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "10.5",
-        "sceneId": "0",
-        "timestamp": "2022-07-28 01:15:44"
+        "userId": 0,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578108006.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "22": {
-        "id": "22",
+    {
+        "id": 28,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "11.0",
-        "sceneId": "10",
-        "timestamp": "2020-10-13 15:18:15"
+        "userId": 1,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578107449.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "23": {
-        "id": "23",
+    {
+        "id": 29,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "11.5",
-        "sceneId": "0",
-        "timestamp": "2024-10-15 01:49:24"
+        "userId": 1,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578118569.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "24": {
-        "id": "24",
+    {
+        "id": 30,
         "type": "CORE_SCENE_JOIN",
-        "userId": "6",
-        "sessionId": "12.0",
-        "sceneId": "0",
-        "timestamp": "2021-02-03 09:44:45"
+        "userId": 2,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578108541.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "25": {
-        "id": "25",
+    {
+        "id": 31,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "6",
-        "sessionId": "12.5",
-        "sceneId": "6",
-        "timestamp": "2020-05-03 23:58:06"
+        "userId": 2,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578119477.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "26": {
-        "id": "26",
+    {
+        "id": 32,
         "type": "CORE_SCENE_JOIN",
-        "userId": "9",
-        "sessionId": "13.0",
-        "sceneId": "3",
-        "timestamp": "2024-02-10 04:39:16"
+        "userId": 3,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578109412.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "27": {
-        "id": "27",
+    {
+        "id": 33,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "9",
-        "sessionId": "13.5",
-        "sceneId": "9",
-        "timestamp": "2022-03-26 17:28:06"
+        "userId": 3,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578119807.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "28": {
-        "id": "28",
+    {
+        "id": 34,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "14.0",
-        "sceneId": "5",
-        "timestamp": "2024-03-12 03:10:41"
+        "userId": 4,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578111676.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "29": {
-        "id": "29",
+    {
+        "id": 35,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "14.5",
-        "sceneId": "5",
-        "timestamp": "2020-05-09 09:59:46"
+        "userId": 4,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578120756.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "30": {
-        "id": "30",
+    {
+        "id": 36,
         "type": "CORE_SCENE_JOIN",
-        "userId": "9",
-        "sessionId": "15.0",
-        "sceneId": "11",
-        "timestamp": "2021-10-12 08:05:43"
+        "userId": 5,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578102704.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "31": {
-        "id": "31",
+    {
+        "id": 37,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "9",
-        "sessionId": "15.5",
-        "sceneId": "9",
-        "timestamp": "2021-12-15 02:01:31"
+        "userId": 5,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578112916.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "32": {
-        "id": "32",
+    {
+        "id": 38,
         "type": "CORE_SCENE_JOIN",
-        "userId": "1",
-        "sessionId": "16.0",
-        "sceneId": "14",
-        "timestamp": "2022-05-23 12:08:15"
+        "userId": 6,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578101632.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "33": {
-        "id": "33",
+    {
+        "id": 39,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "1",
-        "sessionId": "16.5",
-        "sceneId": "1",
-        "timestamp": "2020-10-24 04:22:33"
+        "userId": 6,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578111877.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "34": {
-        "id": "34",
+    {
+        "id": 40,
+        "type": "CORE_SCENE_RATE",
+        "userId": 6,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578111894.0,
+        "data": {
+            "rating": "3",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 41,
         "type": "CORE_SCENE_JOIN",
-        "userId": "3",
-        "sessionId": "17.0",
-        "sceneId": "0",
-        "timestamp": "2024-08-09 13:30:38"
+        "userId": 7,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578108544.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "35": {
-        "id": "35",
+    {
+        "id": 42,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "3",
-        "sessionId": "17.5",
-        "sceneId": "3",
-        "timestamp": "2021-07-25 01:49:42"
+        "userId": 7,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578120107.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "36": {
-        "id": "36",
+    {
+        "id": 43,
+        "type": "CORE_SCENE_RATE",
+        "userId": 7,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578120214.0,
+        "data": {
+            "rating": "5",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 44,
         "type": "CORE_SCENE_JOIN",
-        "userId": "9",
-        "sessionId": "18.0",
-        "sceneId": "6",
-        "timestamp": "2020-03-26 10:41:57"
+        "userId": 8,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578112255.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "37": {
-        "id": "37",
+    {
+        "id": 45,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "9",
-        "sessionId": "18.5",
-        "sceneId": "9",
-        "timestamp": "2023-03-30 15:10:34"
+        "userId": 8,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578123115.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "38": {
-        "id": "38",
+    {
+        "id": 46,
+        "type": "CORE_SCENE_RATE",
+        "userId": 8,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578123172.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Network"
+        }
+    },
+    {
+        "id": 47,
         "type": "CORE_SCENE_JOIN",
-        "userId": "6",
-        "sessionId": "19.0",
-        "sceneId": "17",
-        "timestamp": "2024-08-02 08:01:06"
+        "userId": 9,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578107622.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "39": {
-        "id": "39",
+    {
+        "id": 48,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "6",
-        "sessionId": "19.5",
-        "sceneId": "6",
-        "timestamp": "2021-03-15 21:32:25"
+        "userId": 9,
+        "sessionId": 1,
+        "sceneId": 2,
+        "timestamp": 1578125304.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "40": {
-        "id": "40",
+    {
+        "id": 49,
         "type": "CORE_SCENE_JOIN",
-        "userId": "4",
-        "sessionId": "20.0",
-        "sceneId": "3",
-        "timestamp": "2022-10-09 23:19:38"
+        "userId": 0,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578195065.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "41": {
-        "id": "41",
+    {
+        "id": 50,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "4",
-        "sessionId": "20.5",
-        "sceneId": "4",
-        "timestamp": "2020-11-24 15:27:13"
+        "userId": 0,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578204506.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "42": {
-        "id": "42",
+    {
+        "id": 51,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "21.0",
-        "sceneId": "6",
-        "timestamp": "2023-01-18 12:27:05"
+        "userId": 1,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578190997.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "43": {
-        "id": "43",
+    {
+        "id": 52,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "21.5",
-        "sceneId": "2",
-        "timestamp": "2023-07-25 00:24:20"
+        "userId": 1,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578203248.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "44": {
-        "id": "44",
+    {
+        "id": 53,
+        "type": "CORE_SCENE_RATE",
+        "userId": 1,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578203359.0,
+        "data": {
+            "rating": "5",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 54,
         "type": "CORE_SCENE_JOIN",
-        "userId": "3",
-        "sessionId": "22.0",
-        "sceneId": "0",
-        "timestamp": "2021-07-25 05:01:01"
+        "userId": 2,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578187237.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "45": {
-        "id": "45",
+    {
+        "id": 55,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "3",
-        "sessionId": "22.5",
-        "sceneId": "3",
-        "timestamp": "2023-10-11 19:08:02"
+        "userId": 2,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578196540.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "46": {
-        "id": "46",
+    {
+        "id": 56,
         "type": "CORE_SCENE_JOIN",
-        "userId": "8",
-        "sessionId": "23.0",
-        "sceneId": "1",
-        "timestamp": "2022-05-24 02:16:24"
+        "userId": 3,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578192994.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "47": {
-        "id": "47",
+    {
+        "id": 57,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "8",
-        "sessionId": "23.5",
-        "sceneId": "8",
-        "timestamp": "2020-06-07 04:01:56"
+        "userId": 3,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578205132.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "48": {
-        "id": "48",
+    {
+        "id": 58,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "24.0",
-        "sceneId": "1",
-        "timestamp": "2024-04-03 19:44:38"
+        "userId": 4,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578191730.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "49": {
-        "id": "49",
+    {
+        "id": 59,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "24.5",
-        "sceneId": "5",
-        "timestamp": "2024-03-14 15:51:03"
+        "userId": 4,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578207842.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "50": {
-        "id": "50",
+    {
+        "id": 60,
+        "type": "CORE_SCENE_RATE",
+        "userId": 4,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578207951.0,
+        "data": {
+            "rating": "3",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 61,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "25.0",
-        "sceneId": "11",
-        "timestamp": "2021-05-09 09:50:08"
+        "userId": 5,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578196471.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "51": {
-        "id": "51",
+    {
+        "id": 62,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "25.5",
-        "sceneId": "2",
-        "timestamp": "2023-08-11 01:36:02"
+        "userId": 5,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578203000.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "52": {
-        "id": "52",
+    {
+        "id": 63,
+        "type": "CORE_SCENE_RATE",
+        "userId": 5,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578203061.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 64,
         "type": "CORE_SCENE_JOIN",
-        "userId": "4",
-        "sessionId": "26.0",
-        "sceneId": "15",
-        "timestamp": "2020-03-25 11:23:05"
+        "userId": 6,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578187016.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "53": {
-        "id": "53",
+    {
+        "id": 65,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "4",
-        "sessionId": "26.5",
-        "sceneId": "4",
-        "timestamp": "2023-03-02 14:46:05"
+        "userId": 6,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578195145.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "54": {
-        "id": "54",
+    {
+        "id": 66,
+        "type": "CORE_SCENE_RATE",
+        "userId": 6,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578195244.0,
+        "data": {
+            "rating": "1",
+            "rating_cat": "Cat4"
+        }
+    },
+    {
+        "id": 67,
         "type": "CORE_SCENE_JOIN",
-        "userId": "4",
-        "sessionId": "27.0",
-        "sceneId": "5",
-        "timestamp": "2022-12-26 09:43:26"
+        "userId": 7,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578186738.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "55": {
-        "id": "55",
+    {
+        "id": 68,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "4",
-        "sessionId": "27.5",
-        "sceneId": "4",
-        "timestamp": "2020-11-26 04:34:50"
+        "userId": 7,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578195573.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "56": {
-        "id": "56",
+    {
+        "id": 69,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "28.0",
-        "sceneId": "9",
-        "timestamp": "2021-07-15 15:05:05"
+        "userId": 8,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578187362.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "57": {
-        "id": "57",
+    {
+        "id": 70,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "28.5",
-        "sceneId": "0",
-        "timestamp": "2021-12-19 14:01:29"
+        "userId": 8,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578196342.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "58": {
-        "id": "58",
+    {
+        "id": 71,
+        "type": "CORE_SCENE_RATE",
+        "userId": 8,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578196390.0,
+        "data": {
+            "rating": "1",
+            "rating_cat": "Cat4"
+        }
+    },
+    {
+        "id": 72,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "29.0",
-        "sceneId": "13",
-        "timestamp": "2022-07-22 23:23:58"
+        "userId": 9,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578192996.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "59": {
-        "id": "59",
+    {
+        "id": 73,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "29.5",
-        "sceneId": "5",
-        "timestamp": "2020-10-10 14:02:38"
+        "userId": 9,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578198468.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "60": {
-        "id": "60",
+    {
+        "id": 74,
+        "type": "CORE_SCENE_RATE",
+        "userId": 9,
+        "sessionId": 2,
+        "sceneId": 11,
+        "timestamp": 1578198560.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 75,
         "type": "CORE_SCENE_JOIN",
-        "userId": "7",
-        "sessionId": "30.0",
-        "sceneId": "5",
-        "timestamp": "2021-01-04 06:54:55"
+        "userId": 0,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578279158.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "61": {
-        "id": "61",
+    {
+        "id": 76,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "7",
-        "sessionId": "30.5",
-        "sceneId": "7",
-        "timestamp": "2020-01-26 00:36:03"
+        "userId": 0,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578292413.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "62": {
-        "id": "62",
+    {
+        "id": 77,
+        "type": "CORE_SCENE_RATE",
+        "userId": 0,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578292467.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Collab Tools"
+        }
+    },
+    {
+        "id": 78,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "31.0",
-        "sceneId": "2",
-        "timestamp": "2023-12-04 04:35:28"
+        "userId": 1,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578278109.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "63": {
-        "id": "63",
+    {
+        "id": 79,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "31.5",
-        "sceneId": "2",
-        "timestamp": "2023-06-25 20:52:40"
+        "userId": 1,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578280768.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "64": {
-        "id": "64",
+    {
+        "id": 80,
+        "type": "CORE_SCENE_RATE",
+        "userId": 1,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578280807.0,
+        "data": {
+            "rating": "3",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 81,
         "type": "CORE_SCENE_JOIN",
-        "userId": "7",
-        "sessionId": "32.0",
-        "sceneId": "14",
-        "timestamp": "2020-09-04 21:37:34"
+        "userId": 2,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578283049.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "65": {
-        "id": "65",
+    {
+        "id": 82,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "7",
-        "sessionId": "32.5",
-        "sceneId": "7",
-        "timestamp": "2020-11-04 03:51:45"
+        "userId": 2,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578294957.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "66": {
-        "id": "66",
+    {
+        "id": 83,
+        "type": "CORE_SCENE_RATE",
+        "userId": 2,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578294969.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Network"
+        }
+    },
+    {
+        "id": 84,
         "type": "CORE_SCENE_JOIN",
-        "userId": "8",
-        "sessionId": "33.0",
-        "sceneId": "1",
-        "timestamp": "2021-07-22 18:12:25"
+        "userId": 3,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578288009.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "67": {
-        "id": "67",
+    {
+        "id": 85,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "8",
-        "sessionId": "33.5",
-        "sceneId": "8",
-        "timestamp": "2024-11-11 01:08:53"
+        "userId": 3,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578297888.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "68": {
-        "id": "68",
+    {
+        "id": 86,
+        "type": "CORE_SCENE_RATE",
+        "userId": 3,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578297903.0,
+        "data": {
+            "rating": "5",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 87,
         "type": "CORE_SCENE_JOIN",
-        "userId": "8",
-        "sessionId": "34.0",
-        "sceneId": "0",
-        "timestamp": "2022-11-22 01:29:27"
+        "userId": 4,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578278761.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "69": {
-        "id": "69",
+    {
+        "id": 88,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "8",
-        "sessionId": "34.5",
-        "sceneId": "8",
-        "timestamp": "2024-05-22 08:36:12"
+        "userId": 4,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578291202.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "70": {
-        "id": "70",
+    {
+        "id": 89,
+        "type": "CORE_SCENE_RATE",
+        "userId": 4,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578291283.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 90,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "35.0",
-        "sceneId": "10",
-        "timestamp": "2020-12-05 08:20:46"
+        "userId": 5,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578281288.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "71": {
-        "id": "71",
+    {
+        "id": 91,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "35.5",
-        "sceneId": "2",
-        "timestamp": "2021-06-29 05:29:06"
+        "userId": 5,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578289282.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "72": {
-        "id": "72",
+    {
+        "id": 92,
         "type": "CORE_SCENE_JOIN",
-        "userId": "1",
-        "sessionId": "36.0",
-        "sceneId": "13",
-        "timestamp": "2023-12-04 00:33:22"
+        "userId": 6,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578278849.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "73": {
-        "id": "73",
+    {
+        "id": 93,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "1",
-        "sessionId": "36.5",
-        "sceneId": "1",
-        "timestamp": "2023-08-13 04:56:37"
+        "userId": 6,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578284789.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "74": {
-        "id": "74",
+    {
+        "id": 94,
         "type": "CORE_SCENE_JOIN",
-        "userId": "8",
-        "sessionId": "37.0",
-        "sceneId": "18",
-        "timestamp": "2020-09-04 08:04:34"
+        "userId": 7,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578279535.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "75": {
-        "id": "75",
+    {
+        "id": 95,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "8",
-        "sessionId": "37.5",
-        "sceneId": "8",
-        "timestamp": "2021-12-04 23:19:40"
+        "userId": 7,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578286251.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "76": {
-        "id": "76",
+    {
+        "id": 96,
         "type": "CORE_SCENE_JOIN",
-        "userId": "4",
-        "sessionId": "38.0",
-        "sceneId": "12",
-        "timestamp": "2022-03-03 15:58:24"
+        "userId": 8,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578280562.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "77": {
-        "id": "77",
+    {
+        "id": 97,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "4",
-        "sessionId": "38.5",
-        "sceneId": "4",
-        "timestamp": "2020-11-07 03:26:30"
+        "userId": 8,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578292662.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "78": {
-        "id": "78",
+    {
+        "id": 98,
         "type": "CORE_SCENE_JOIN",
-        "userId": "9",
-        "sessionId": "39.0",
-        "sceneId": "7",
-        "timestamp": "2022-10-07 14:05:04"
+        "userId": 9,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578282765.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "79": {
-        "id": "79",
+    {
+        "id": 99,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "9",
-        "sessionId": "39.5",
-        "sceneId": "9",
-        "timestamp": "2021-02-16 01:00:52"
+        "userId": 9,
+        "sessionId": 3,
+        "sceneId": 3,
+        "timestamp": 1578296440.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "80": {
-        "id": "80",
+    {
+        "id": 100,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "40.0",
-        "sceneId": "0",
-        "timestamp": "2022-01-13 04:07:21"
+        "userId": 0,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578370827.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "81": {
-        "id": "81",
+    {
+        "id": 101,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "40.5",
-        "sceneId": "5",
-        "timestamp": "2021-03-06 09:39:11"
+        "userId": 0,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578380281.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "82": {
-        "id": "82",
+    {
+        "id": 102,
+        "type": "CORE_SCENE_RATE",
+        "userId": 0,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578380321.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 103,
         "type": "CORE_SCENE_JOIN",
-        "userId": "2",
-        "sessionId": "41.0",
-        "sceneId": "12",
-        "timestamp": "2020-07-30 02:54:32"
+        "userId": 1,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578365244.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "83": {
-        "id": "83",
+    {
+        "id": 104,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "2",
-        "sessionId": "41.5",
-        "sceneId": "2",
-        "timestamp": "2020-10-27 07:20:57"
+        "userId": 1,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578373265.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "84": {
-        "id": "84",
+    {
+        "id": 105,
+        "type": "CORE_SCENE_RATE",
+        "userId": 1,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578373298.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Cat4"
+        }
+    },
+    {
+        "id": 106,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "42.0",
-        "sceneId": "1",
-        "timestamp": "2020-10-19 01:49:23"
+        "userId": 2,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578363758.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "85": {
-        "id": "85",
+    {
+        "id": 107,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "42.5",
-        "sceneId": "0",
-        "timestamp": "2022-01-17 17:43:14"
+        "userId": 2,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578379630.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "86": {
-        "id": "86",
+    {
+        "id": 108,
+        "type": "CORE_SCENE_RATE",
+        "userId": 2,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578379677.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Network"
+        }
+    },
+    {
+        "id": 109,
         "type": "CORE_SCENE_JOIN",
-        "userId": "4",
-        "sessionId": "43.0",
-        "sceneId": "12",
-        "timestamp": "2023-07-01 12:23:12"
+        "userId": 3,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578367852.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "87": {
-        "id": "87",
+    {
+        "id": 110,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "4",
-        "sessionId": "43.5",
-        "sceneId": "4",
-        "timestamp": "2021-09-13 18:06:58"
+        "userId": 3,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578371865.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "88": {
-        "id": "88",
+    {
+        "id": 111,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "44.0",
-        "sceneId": "18",
-        "timestamp": "2024-06-26 09:23:09"
+        "userId": 4,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578370264.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "89": {
-        "id": "89",
+    {
+        "id": 112,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "44.5",
-        "sceneId": "0",
-        "timestamp": "2020-08-05 23:56:05"
+        "userId": 4,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578375163.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "90": {
-        "id": "90",
+    {
+        "id": 113,
         "type": "CORE_SCENE_JOIN",
-        "userId": "6",
-        "sessionId": "45.0",
-        "sceneId": "4",
-        "timestamp": "2021-02-03 22:44:46"
+        "userId": 5,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578366652.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "91": {
-        "id": "91",
+    {
+        "id": 114,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "6",
-        "sessionId": "45.5",
-        "sceneId": "6",
-        "timestamp": "2023-05-15 02:17:23"
+        "userId": 5,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578379575.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "92": {
-        "id": "92",
+    {
+        "id": 115,
+        "type": "CORE_SCENE_RATE",
+        "userId": 5,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578379644.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 116,
         "type": "CORE_SCENE_JOIN",
-        "userId": "5",
-        "sessionId": "46.0",
-        "sceneId": "10",
-        "timestamp": "2023-03-22 11:52:19"
+        "userId": 6,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578362974.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "93": {
-        "id": "93",
+    {
+        "id": 117,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "5",
-        "sessionId": "46.5",
-        "sceneId": "5",
-        "timestamp": "2020-12-18 17:06:43"
+        "userId": 6,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578371076.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "94": {
-        "id": "94",
+    {
+        "id": 118,
         "type": "CORE_SCENE_JOIN",
-        "userId": "7",
-        "sessionId": "47.0",
-        "sceneId": "7",
-        "timestamp": "2022-08-15 03:05:42"
+        "userId": 7,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578360267.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "95": {
-        "id": "95",
+    {
+        "id": 119,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "7",
-        "sessionId": "47.5",
-        "sceneId": "7",
-        "timestamp": "2023-08-23 18:49:39"
+        "userId": 7,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578370815.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "96": {
-        "id": "96",
+    {
+        "id": 120,
+        "type": "CORE_SCENE_RATE",
+        "userId": 7,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578370851.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Network"
+        }
+    },
+    {
+        "id": 121,
         "type": "CORE_SCENE_JOIN",
-        "userId": "0",
-        "sessionId": "48.0",
-        "sceneId": "15",
-        "timestamp": "2021-09-09 09:05:03"
+        "userId": 8,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578365928.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "97": {
-        "id": "97",
+    {
+        "id": 122,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "0",
-        "sessionId": "48.5",
-        "sceneId": "0",
-        "timestamp": "2020-01-13 22:13:05"
+        "userId": 8,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578375634.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "98": {
-        "id": "98",
+    {
+        "id": 123,
+        "type": "CORE_SCENE_RATE",
+        "userId": 8,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578375651.0,
+        "data": {
+            "rating": "3",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 124,
         "type": "CORE_SCENE_JOIN",
-        "userId": "7",
-        "sessionId": "49.0",
-        "sceneId": "1",
-        "timestamp": "2021-09-27 17:04:08"
+        "userId": 9,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578360530.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     },
-    "99": {
-        "id": "99",
+    {
+        "id": 125,
         "type": "CORE_SCENE_LEAVE",
-        "userId": "7",
-        "sessionId": "49.5",
-        "sceneId": "7",
-        "timestamp": "2023-08-29 02:27:07"
+        "userId": 9,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578368541.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 126,
+        "type": "CORE_SCENE_RATE",
+        "userId": 9,
+        "sessionId": 4,
+        "sceneId": 0,
+        "timestamp": 1578368633.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Network"
+        }
+    },
+    {
+        "id": 127,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 0,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578457103.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 128,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 0,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578467953.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 129,
+        "type": "CORE_SCENE_RATE",
+        "userId": 0,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578468034.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 130,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 1,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578448903.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 131,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 1,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578458781.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 132,
+        "type": "CORE_SCENE_RATE",
+        "userId": 1,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578458817.0,
+        "data": {
+            "rating": "1",
+            "rating_cat": "Chat"
+        }
+    },
+    {
+        "id": 133,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 2,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578458220.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 134,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 2,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578462890.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 135,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 3,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578452512.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 136,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 3,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578462902.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 137,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 4,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578461827.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 138,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 4,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578469901.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 139,
+        "type": "CORE_SCENE_RATE",
+        "userId": 4,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578470015.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Network"
+        }
+    },
+    {
+        "id": 140,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 5,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578452799.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 141,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 5,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578454464.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 142,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 6,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578450835.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 143,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 6,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578463118.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 144,
+        "type": "CORE_SCENE_RATE",
+        "userId": 6,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578463122.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 145,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 7,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578458649.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 146,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 7,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578470548.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 147,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 8,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578451734.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 148,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 8,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578453339.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 149,
+        "type": "CORE_SCENE_RATE",
+        "userId": 8,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578453422.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 150,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 9,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578454889.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 151,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 9,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578469767.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 152,
+        "type": "CORE_SCENE_RATE",
+        "userId": 9,
+        "sessionId": 5,
+        "sceneId": 11,
+        "timestamp": 1578469798.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 153,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 0,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578535649.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 154,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 0,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578546945.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 155,
+        "type": "CORE_SCENE_RATE",
+        "userId": 0,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578546960.0,
+        "data": {
+            "rating": "3",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 156,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 1,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578540431.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 157,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 1,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578544496.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 158,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 2,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578534154.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 159,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 2,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578539942.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 160,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 3,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578538271.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 161,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 3,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578547519.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 162,
+        "type": "CORE_SCENE_RATE",
+        "userId": 3,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578547637.0,
+        "data": {
+            "rating": "2",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 163,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 4,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578536186.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 164,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 4,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578549507.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 165,
+        "type": "CORE_SCENE_RATE",
+        "userId": 4,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578549556.0,
+        "data": {
+            "rating": "0",
+            "rating_cat": "Cat4"
+        }
+    },
+    {
+        "id": 166,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 5,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578545310.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 167,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 5,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578551398.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 168,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 6,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578536657.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 169,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 6,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578551945.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 170,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 7,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578547261.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 171,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 7,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578559127.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 172,
+        "type": "CORE_SCENE_RATE",
+        "userId": 7,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578559222.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat5"
+        }
+    },
+    {
+        "id": 173,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 8,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578533704.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 174,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 8,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578540198.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 175,
+        "type": "CORE_SCENE_RATE",
+        "userId": 8,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578540309.0,
+        "data": {
+            "rating": "4",
+            "rating_cat": "Cat6"
+        }
+    },
+    {
+        "id": 176,
+        "type": "CORE_SCENE_JOIN",
+        "userId": 9,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578540833.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
+    },
+    {
+        "id": 177,
+        "type": "CORE_SCENE_LEAVE",
+        "userId": 9,
+        "sessionId": 6,
+        "sceneId": 12,
+        "timestamp": 1578554585.0,
+        "data": {
+            "rating": null,
+            "rating_cat": null
+        }
     }
-}
+]
