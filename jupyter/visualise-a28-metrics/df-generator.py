@@ -29,6 +29,7 @@ def random_date(start, end, prop):
 
 
 # start
+rating_categories = ['Network', 'Collab Tools', 'Chat', 'Cat4', 'Cat5', 'Cat6']
 header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp', 'data']
 data_csv = list()
 id = 0
@@ -55,12 +56,17 @@ for i in range(7): # number of sessions
             if k == 0:
                 type = 'CORE_SCENE_JOIN' 
                 data['rating'] = None
+                data['rating_cat'] = None
             elif k == 1:
                 type = 'CORE_SCENE_LEAVE'
                 data['rating'] = None
+                data['rating_cat'] = None
             elif k==2:
                 type = 'CORE_SCENE_RATE'
-                data['rating'] = rnd.binomial(n=5, p=0.65, size=1)[0]
+                random_index = random.randint(0, len(rating_categories) - 1)
+                data['rating'] = rnd.binomial(
+                    n=5, p=random_index/len(rating_categories), size=1)[0]
+                data['rating_cat'] = rating_categories[random_index]
 
             if k == 1:
                 this_timestamp = datetime.datetime.strptime(

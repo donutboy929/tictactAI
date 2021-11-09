@@ -1,172 +1,174 @@
 id,type,userId,sessionId,sceneId,timestamp,data
-1,CORE_SCENE_JOIN,0,0,4,2020-01-03 10:41:38,{'rating': None}
-2,CORE_SCENE_LEAVE,0,0,4,2020-01-03 11:52:49,{'rating': None}
-3,CORE_SCENE_JOIN,1,0,4,2020-01-03 10:45:19,{'rating': None}
-4,CORE_SCENE_LEAVE,1,0,4,2020-01-03 15:05:53,{'rating': None}
-5,CORE_SCENE_RATE,1,0,4,2020-01-03 15:06:59,{'rating': 2}
-6,CORE_SCENE_JOIN,2,0,4,2020-01-03 10:21:37,{'rating': None}
-7,CORE_SCENE_LEAVE,2,0,4,2020-01-03 12:39:51,{'rating': None}
-8,CORE_SCENE_RATE,2,0,4,2020-01-03 12:40:06,{'rating': 1}
-9,CORE_SCENE_JOIN,3,0,4,2020-01-03 10:51:08,{'rating': None}
-10,CORE_SCENE_LEAVE,3,0,4,2020-01-03 15:07:56,{'rating': None}
-11,CORE_SCENE_RATE,3,0,4,2020-01-03 15:09:26,{'rating': 5}
-12,CORE_SCENE_JOIN,4,0,4,2020-01-03 11:58:01,{'rating': None}
-13,CORE_SCENE_LEAVE,4,0,4,2020-01-03 15:32:52,{'rating': None}
-14,CORE_SCENE_JOIN,5,0,4,2020-01-03 11:23:07,{'rating': None}
-15,CORE_SCENE_LEAVE,5,0,4,2020-01-03 14:50:10,{'rating': None}
-16,CORE_SCENE_RATE,5,0,4,2020-01-03 14:51:28,{'rating': 2}
-17,CORE_SCENE_JOIN,6,0,4,2020-01-03 11:25:48,{'rating': None}
-18,CORE_SCENE_LEAVE,6,0,4,2020-01-03 13:12:00,{'rating': None}
-19,CORE_SCENE_JOIN,7,0,4,2020-01-03 11:53:34,{'rating': None}
-20,CORE_SCENE_LEAVE,7,0,4,2020-01-03 15:48:51,{'rating': None}
-21,CORE_SCENE_JOIN,8,0,4,2020-01-03 12:08:15,{'rating': None}
-22,CORE_SCENE_LEAVE,8,0,4,2020-01-03 15:21:56,{'rating': None}
-23,CORE_SCENE_JOIN,9,0,4,2020-01-03 10:35:25,{'rating': None}
-24,CORE_SCENE_LEAVE,9,0,4,2020-01-03 12:15:21,{'rating': None}
-25,CORE_SCENE_JOIN,0,1,9,2020-01-04 11:05:19,{'rating': None}
-26,CORE_SCENE_LEAVE,0,1,9,2020-01-04 13:18:03,{'rating': None}
-27,CORE_SCENE_RATE,0,1,9,2020-01-04 13:19:53,{'rating': 3}
-28,CORE_SCENE_JOIN,1,1,9,2020-01-04 09:09:33,{'rating': None}
-29,CORE_SCENE_LEAVE,1,1,9,2020-01-04 11:33:57,{'rating': None}
-30,CORE_SCENE_JOIN,2,1,9,2020-01-04 10:05:33,{'rating': None}
-31,CORE_SCENE_LEAVE,2,1,9,2020-01-04 11:07:12,{'rating': None}
-32,CORE_SCENE_JOIN,3,1,9,2020-01-04 10:17:10,{'rating': None}
-33,CORE_SCENE_LEAVE,3,1,9,2020-01-04 10:27:03,{'rating': None}
-34,CORE_SCENE_RATE,3,1,9,2020-01-04 10:28:58,{'rating': 3}
-35,CORE_SCENE_JOIN,4,1,9,2020-01-04 12:50:35,{'rating': None}
-36,CORE_SCENE_LEAVE,4,1,9,2020-01-04 14:58:02,{'rating': None}
-37,CORE_SCENE_JOIN,5,1,9,2020-01-04 09:51:55,{'rating': None}
-38,CORE_SCENE_LEAVE,5,1,9,2020-01-04 11:23:31,{'rating': None}
-39,CORE_SCENE_JOIN,6,1,9,2020-01-04 10:18:50,{'rating': None}
-40,CORE_SCENE_LEAVE,6,1,9,2020-01-04 11:55:17,{'rating': None}
-41,CORE_SCENE_JOIN,7,1,9,2020-01-04 10:02:34,{'rating': None}
-42,CORE_SCENE_LEAVE,7,1,9,2020-01-04 10:38:34,{'rating': None}
-43,CORE_SCENE_RATE,7,1,9,2020-01-04 10:39:46,{'rating': 1}
-44,CORE_SCENE_JOIN,8,1,9,2020-01-04 10:53:51,{'rating': None}
-45,CORE_SCENE_LEAVE,8,1,9,2020-01-04 12:12:16,{'rating': None}
-46,CORE_SCENE_RATE,8,1,9,2020-01-04 12:13:05,{'rating': 3}
-47,CORE_SCENE_JOIN,9,1,9,2020-01-04 10:22:09,{'rating': None}
-48,CORE_SCENE_LEAVE,9,1,9,2020-01-04 12:07:17,{'rating': None}
-49,CORE_SCENE_JOIN,0,2,12,2020-01-05 11:01:41,{'rating': None}
-50,CORE_SCENE_LEAVE,0,2,12,2020-01-05 14:57:12,{'rating': None}
-51,CORE_SCENE_JOIN,1,2,12,2020-01-05 11:34:41,{'rating': None}
-52,CORE_SCENE_LEAVE,1,2,12,2020-01-05 14:04:24,{'rating': None}
-53,CORE_SCENE_RATE,1,2,12,2020-01-05 14:04:50,{'rating': 3}
-54,CORE_SCENE_JOIN,2,2,12,2020-01-05 13:46:10,{'rating': None}
-55,CORE_SCENE_LEAVE,2,2,12,2020-01-05 16:22:53,{'rating': None}
-56,CORE_SCENE_RATE,2,2,12,2020-01-05 16:24:43,{'rating': 4}
-57,CORE_SCENE_JOIN,3,2,12,2020-01-05 11:35:15,{'rating': None}
-58,CORE_SCENE_LEAVE,3,2,12,2020-01-05 12:43:28,{'rating': None}
-59,CORE_SCENE_RATE,3,2,12,2020-01-05 12:44:13,{'rating': 1}
-60,CORE_SCENE_JOIN,4,2,12,2020-01-05 10:01:15,{'rating': None}
-61,CORE_SCENE_LEAVE,4,2,12,2020-01-05 13:50:00,{'rating': None}
-62,CORE_SCENE_RATE,4,2,12,2020-01-05 13:51:38,{'rating': 3}
-63,CORE_SCENE_JOIN,5,2,12,2020-01-05 11:11:39,{'rating': None}
-64,CORE_SCENE_LEAVE,5,2,12,2020-01-05 13:13:34,{'rating': None}
-65,CORE_SCENE_RATE,5,2,12,2020-01-05 13:13:41,{'rating': 5}
-66,CORE_SCENE_JOIN,6,2,12,2020-01-05 10:53:11,{'rating': None}
-67,CORE_SCENE_LEAVE,6,2,12,2020-01-05 14:26:31,{'rating': None}
-68,CORE_SCENE_RATE,6,2,12,2020-01-05 14:26:39,{'rating': 2}
-69,CORE_SCENE_JOIN,7,2,12,2020-01-05 11:06:38,{'rating': None}
-70,CORE_SCENE_LEAVE,7,2,12,2020-01-05 12:37:21,{'rating': None}
-71,CORE_SCENE_RATE,7,2,12,2020-01-05 12:39:06,{'rating': 1}
-72,CORE_SCENE_JOIN,8,2,12,2020-01-05 10:45:39,{'rating': None}
-73,CORE_SCENE_LEAVE,8,2,12,2020-01-05 14:01:25,{'rating': None}
-74,CORE_SCENE_JOIN,9,2,12,2020-01-05 10:18:12,{'rating': None}
-75,CORE_SCENE_LEAVE,9,2,12,2020-01-05 11:56:05,{'rating': None}
-76,CORE_SCENE_JOIN,0,3,7,2020-01-06 11:43:47,{'rating': None}
-77,CORE_SCENE_LEAVE,0,3,7,2020-01-06 15:56:28,{'rating': None}
-78,CORE_SCENE_RATE,0,3,7,2020-01-06 15:56:49,{'rating': 5}
-79,CORE_SCENE_JOIN,1,3,7,2020-01-06 11:19:38,{'rating': None}
-80,CORE_SCENE_LEAVE,1,3,7,2020-01-06 16:18:26,{'rating': None}
-81,CORE_SCENE_JOIN,2,3,7,2020-01-06 10:47:22,{'rating': None}
-82,CORE_SCENE_LEAVE,2,3,7,2020-01-06 12:33:48,{'rating': None}
-83,CORE_SCENE_JOIN,3,3,7,2020-01-06 11:02:24,{'rating': None}
-84,CORE_SCENE_LEAVE,3,3,7,2020-01-06 13:36:01,{'rating': None}
-85,CORE_SCENE_RATE,3,3,7,2020-01-06 13:36:18,{'rating': 4}
-86,CORE_SCENE_JOIN,4,3,7,2020-01-06 11:23:14,{'rating': None}
-87,CORE_SCENE_LEAVE,4,3,7,2020-01-06 14:06:14,{'rating': None}
-88,CORE_SCENE_RATE,4,3,7,2020-01-06 14:06:52,{'rating': 5}
-89,CORE_SCENE_JOIN,5,3,7,2020-01-06 10:01:47,{'rating': None}
-90,CORE_SCENE_LEAVE,5,3,7,2020-01-06 12:14:12,{'rating': None}
-91,CORE_SCENE_RATE,5,3,7,2020-01-06 12:15:35,{'rating': 3}
-92,CORE_SCENE_JOIN,6,3,7,2020-01-06 10:19:17,{'rating': None}
-93,CORE_SCENE_LEAVE,6,3,7,2020-01-06 13:16:44,{'rating': None}
-94,CORE_SCENE_JOIN,7,3,7,2020-01-06 11:57:31,{'rating': None}
-95,CORE_SCENE_LEAVE,7,3,7,2020-01-06 13:31:54,{'rating': None}
-96,CORE_SCENE_RATE,7,3,7,2020-01-06 13:32:47,{'rating': 5}
-97,CORE_SCENE_JOIN,8,3,7,2020-01-06 10:42:10,{'rating': None}
-98,CORE_SCENE_LEAVE,8,3,7,2020-01-06 14:03:10,{'rating': None}
-99,CORE_SCENE_JOIN,9,3,7,2020-01-06 11:03:34,{'rating': None}
-100,CORE_SCENE_LEAVE,9,3,7,2020-01-06 12:19:53,{'rating': None}
-101,CORE_SCENE_JOIN,0,4,0,2020-01-07 13:35:11,{'rating': None}
-102,CORE_SCENE_LEAVE,0,4,0,2020-01-07 17:07:23,{'rating': None}
-103,CORE_SCENE_RATE,0,4,0,2020-01-07 17:07:43,{'rating': 3}
-104,CORE_SCENE_JOIN,1,4,0,2020-01-07 11:34:24,{'rating': None}
-105,CORE_SCENE_LEAVE,1,4,0,2020-01-07 13:34:55,{'rating': None}
-106,CORE_SCENE_JOIN,2,4,0,2020-01-07 09:36:43,{'rating': None}
-107,CORE_SCENE_LEAVE,2,4,0,2020-01-07 11:02:58,{'rating': None}
-108,CORE_SCENE_JOIN,3,4,0,2020-01-07 10:36:48,{'rating': None}
-109,CORE_SCENE_LEAVE,3,4,0,2020-01-07 12:48:03,{'rating': None}
-110,CORE_SCENE_RATE,3,4,0,2020-01-07 12:49:39,{'rating': 3}
-111,CORE_SCENE_JOIN,4,4,0,2020-01-07 11:45:41,{'rating': None}
-112,CORE_SCENE_LEAVE,4,4,0,2020-01-07 13:32:01,{'rating': None}
-113,CORE_SCENE_RATE,4,4,0,2020-01-07 13:33:43,{'rating': 5}
-114,CORE_SCENE_JOIN,5,4,0,2020-01-07 10:20:03,{'rating': None}
-115,CORE_SCENE_LEAVE,5,4,0,2020-01-07 13:14:24,{'rating': None}
-116,CORE_SCENE_JOIN,6,4,0,2020-01-07 10:10:52,{'rating': None}
-117,CORE_SCENE_LEAVE,6,4,0,2020-01-07 12:02:08,{'rating': None}
-118,CORE_SCENE_JOIN,7,4,0,2020-01-07 11:49:10,{'rating': None}
-119,CORE_SCENE_LEAVE,7,4,0,2020-01-07 13:15:20,{'rating': None}
-120,CORE_SCENE_JOIN,8,4,0,2020-01-07 09:40:48,{'rating': None}
-121,CORE_SCENE_LEAVE,8,4,0,2020-01-07 11:47:57,{'rating': None}
-122,CORE_SCENE_JOIN,9,4,0,2020-01-07 10:41:57,{'rating': None}
-123,CORE_SCENE_LEAVE,9,4,0,2020-01-07 14:29:45,{'rating': None}
-124,CORE_SCENE_JOIN,0,5,7,2020-01-08 09:56:54,{'rating': None}
-125,CORE_SCENE_LEAVE,0,5,7,2020-01-08 12:18:57,{'rating': None}
-126,CORE_SCENE_JOIN,1,5,7,2020-01-08 09:24:45,{'rating': None}
-127,CORE_SCENE_LEAVE,1,5,7,2020-01-08 11:17:28,{'rating': None}
-128,CORE_SCENE_RATE,1,5,7,2020-01-08 11:17:59,{'rating': 3}
-129,CORE_SCENE_JOIN,2,5,7,2020-01-08 10:16:06,{'rating': None}
-130,CORE_SCENE_LEAVE,2,5,7,2020-01-08 11:43:41,{'rating': None}
-131,CORE_SCENE_JOIN,3,5,7,2020-01-08 11:42:55,{'rating': None}
-132,CORE_SCENE_LEAVE,3,5,7,2020-01-08 16:17:10,{'rating': None}
-133,CORE_SCENE_RATE,3,5,7,2020-01-08 16:17:33,{'rating': 4}
-134,CORE_SCENE_JOIN,4,5,7,2020-01-08 11:35:44,{'rating': None}
-135,CORE_SCENE_LEAVE,4,5,7,2020-01-08 14:05:49,{'rating': None}
-136,CORE_SCENE_JOIN,5,5,7,2020-01-08 09:51:39,{'rating': None}
-137,CORE_SCENE_LEAVE,5,5,7,2020-01-08 13:03:11,{'rating': None}
-138,CORE_SCENE_JOIN,6,5,7,2020-01-08 09:56:14,{'rating': None}
-139,CORE_SCENE_LEAVE,6,5,7,2020-01-08 13:12:18,{'rating': None}
-140,CORE_SCENE_RATE,6,5,7,2020-01-08 13:14:12,{'rating': 2}
-141,CORE_SCENE_JOIN,7,5,7,2020-01-08 11:37:42,{'rating': None}
-142,CORE_SCENE_LEAVE,7,5,7,2020-01-08 14:01:55,{'rating': None}
-143,CORE_SCENE_JOIN,8,5,7,2020-01-08 12:29:52,{'rating': None}
-144,CORE_SCENE_LEAVE,8,5,7,2020-01-08 12:43:49,{'rating': None}
-145,CORE_SCENE_RATE,8,5,7,2020-01-08 12:45:42,{'rating': 3}
-146,CORE_SCENE_JOIN,9,5,7,2020-01-08 10:37:43,{'rating': None}
-147,CORE_SCENE_LEAVE,9,5,7,2020-01-08 11:07:05,{'rating': None}
-148,CORE_SCENE_JOIN,0,6,8,2020-01-09 11:52:52,{'rating': None}
-149,CORE_SCENE_LEAVE,0,6,8,2020-01-09 15:36:20,{'rating': None}
-150,CORE_SCENE_JOIN,1,6,8,2020-01-09 13:00:51,{'rating': None}
-151,CORE_SCENE_LEAVE,1,6,8,2020-01-09 15:20:49,{'rating': None}
-152,CORE_SCENE_JOIN,2,6,8,2020-01-09 11:07:18,{'rating': None}
-153,CORE_SCENE_LEAVE,2,6,8,2020-01-09 15:12:44,{'rating': None}
-154,CORE_SCENE_RATE,2,6,8,2020-01-09 15:13:25,{'rating': 3}
-155,CORE_SCENE_JOIN,3,6,8,2020-01-09 09:28:23,{'rating': None}
-156,CORE_SCENE_LEAVE,3,6,8,2020-01-09 12:36:12,{'rating': None}
-157,CORE_SCENE_JOIN,4,6,8,2020-01-09 09:27:01,{'rating': None}
-158,CORE_SCENE_LEAVE,4,6,8,2020-01-09 14:08:52,{'rating': None}
-159,CORE_SCENE_RATE,4,6,8,2020-01-09 14:09:20,{'rating': 4}
-160,CORE_SCENE_JOIN,5,6,8,2020-01-09 12:15:20,{'rating': None}
-161,CORE_SCENE_LEAVE,5,6,8,2020-01-09 16:45:24,{'rating': None}
-162,CORE_SCENE_JOIN,6,6,8,2020-01-09 11:54:37,{'rating': None}
-163,CORE_SCENE_LEAVE,6,6,8,2020-01-09 13:28:25,{'rating': None}
-164,CORE_SCENE_JOIN,7,6,8,2020-01-09 10:25:15,{'rating': None}
-165,CORE_SCENE_LEAVE,7,6,8,2020-01-09 15:24:06,{'rating': None}
-166,CORE_SCENE_RATE,7,6,8,2020-01-09 15:25:08,{'rating': 4}
-167,CORE_SCENE_JOIN,8,6,8,2020-01-09 10:35:12,{'rating': None}
-168,CORE_SCENE_LEAVE,8,6,8,2020-01-09 13:30:06,{'rating': None}
-169,CORE_SCENE_RATE,8,6,8,2020-01-09 13:30:11,{'rating': 3}
-170,CORE_SCENE_JOIN,9,6,8,2020-01-09 09:22:54,{'rating': None}
-171,CORE_SCENE_LEAVE,9,6,8,2020-01-09 12:03:01,{'rating': None}
+1,CORE_SCENE_JOIN,0,0,7,2020-01-03 13:35:35,"{'rating': None, 'rating_cat': None}"
+2,CORE_SCENE_LEAVE,0,0,7,2020-01-03 16:26:43,"{'rating': None, 'rating_cat': None}"
+3,CORE_SCENE_RATE,0,0,7,2020-01-03 16:27:13,"{'rating': 2, 'rating_cat': 'Cat4'}"
+4,CORE_SCENE_JOIN,1,0,7,2020-01-03 11:44:43,"{'rating': None, 'rating_cat': None}"
+5,CORE_SCENE_LEAVE,1,0,7,2020-01-03 14:11:38,"{'rating': None, 'rating_cat': None}"
+6,CORE_SCENE_RATE,1,0,7,2020-01-03 14:11:50,"{'rating': 0, 'rating_cat': 'Network'}"
+7,CORE_SCENE_JOIN,2,0,7,2020-01-03 10:06:50,"{'rating': None, 'rating_cat': None}"
+8,CORE_SCENE_LEAVE,2,0,7,2020-01-03 14:57:35,"{'rating': None, 'rating_cat': None}"
+9,CORE_SCENE_JOIN,3,0,7,2020-01-03 11:34:25,"{'rating': None, 'rating_cat': None}"
+10,CORE_SCENE_LEAVE,3,0,7,2020-01-03 13:04:44,"{'rating': None, 'rating_cat': None}"
+11,CORE_SCENE_JOIN,4,0,7,2020-01-03 10:42:52,"{'rating': None, 'rating_cat': None}"
+12,CORE_SCENE_LEAVE,4,0,7,2020-01-03 11:41:05,"{'rating': None, 'rating_cat': None}"
+13,CORE_SCENE_RATE,4,0,7,2020-01-03 11:41:18,"{'rating': 2, 'rating_cat': 'Cat4'}"
+14,CORE_SCENE_JOIN,5,0,7,2020-01-03 09:48:13,"{'rating': None, 'rating_cat': None}"
+15,CORE_SCENE_LEAVE,5,0,7,2020-01-03 13:37:40,"{'rating': None, 'rating_cat': None}"
+16,CORE_SCENE_RATE,5,0,7,2020-01-03 13:39:37,"{'rating': 3, 'rating_cat': 'Chat'}"
+17,CORE_SCENE_JOIN,6,0,7,2020-01-03 09:07:36,"{'rating': None, 'rating_cat': None}"
+18,CORE_SCENE_LEAVE,6,0,7,2020-01-03 13:26:33,"{'rating': None, 'rating_cat': None}"
+19,CORE_SCENE_JOIN,7,0,7,2020-01-03 10:55:37,"{'rating': None, 'rating_cat': None}"
+20,CORE_SCENE_LEAVE,7,0,7,2020-01-03 13:05:27,"{'rating': None, 'rating_cat': None}"
+21,CORE_SCENE_JOIN,8,0,7,2020-01-03 11:44:36,"{'rating': None, 'rating_cat': None}"
+22,CORE_SCENE_LEAVE,8,0,7,2020-01-03 13:37:57,"{'rating': None, 'rating_cat': None}"
+23,CORE_SCENE_RATE,8,0,7,2020-01-03 13:38:23,"{'rating': 0, 'rating_cat': 'Collab Tools'}"
+24,CORE_SCENE_JOIN,9,0,7,2020-01-03 10:43:28,"{'rating': None, 'rating_cat': None}"
+25,CORE_SCENE_LEAVE,9,0,7,2020-01-03 13:37:35,"{'rating': None, 'rating_cat': None}"
+26,CORE_SCENE_JOIN,0,1,3,2020-01-04 12:15:48,"{'rating': None, 'rating_cat': None}"
+27,CORE_SCENE_LEAVE,0,1,3,2020-01-04 13:30:06,"{'rating': None, 'rating_cat': None}"
+28,CORE_SCENE_JOIN,1,1,3,2020-01-04 10:56:46,"{'rating': None, 'rating_cat': None}"
+29,CORE_SCENE_LEAVE,1,1,3,2020-01-04 11:42:50,"{'rating': None, 'rating_cat': None}"
+30,CORE_SCENE_RATE,1,1,3,2020-01-04 11:42:56,"{'rating': 4, 'rating_cat': 'Cat5'}"
+31,CORE_SCENE_JOIN,2,1,3,2020-01-04 10:23:56,"{'rating': None, 'rating_cat': None}"
+32,CORE_SCENE_LEAVE,2,1,3,2020-01-04 13:34:51,"{'rating': None, 'rating_cat': None}"
+33,CORE_SCENE_JOIN,3,1,3,2020-01-04 09:15:46,"{'rating': None, 'rating_cat': None}"
+34,CORE_SCENE_LEAVE,3,1,3,2020-01-04 12:58:26,"{'rating': None, 'rating_cat': None}"
+35,CORE_SCENE_JOIN,4,1,3,2020-01-04 09:41:27,"{'rating': None, 'rating_cat': None}"
+36,CORE_SCENE_LEAVE,4,1,3,2020-01-04 10:42:20,"{'rating': None, 'rating_cat': None}"
+37,CORE_SCENE_JOIN,5,1,3,2020-01-04 10:58:04,"{'rating': None, 'rating_cat': None}"
+38,CORE_SCENE_LEAVE,5,1,3,2020-01-04 13:33:39,"{'rating': None, 'rating_cat': None}"
+39,CORE_SCENE_RATE,5,1,3,2020-01-04 13:33:45,"{'rating': 0, 'rating_cat': 'Network'}"
+40,CORE_SCENE_JOIN,6,1,3,2020-01-04 12:46:02,"{'rating': None, 'rating_cat': None}"
+41,CORE_SCENE_LEAVE,6,1,3,2020-01-04 14:52:17,"{'rating': None, 'rating_cat': None}"
+42,CORE_SCENE_RATE,6,1,3,2020-01-04 14:54:15,"{'rating': 4, 'rating_cat': 'Cat5'}"
+43,CORE_SCENE_JOIN,7,1,3,2020-01-04 12:47:14,"{'rating': None, 'rating_cat': None}"
+44,CORE_SCENE_LEAVE,7,1,3,2020-01-04 13:24:24,"{'rating': None, 'rating_cat': None}"
+45,CORE_SCENE_JOIN,8,1,3,2020-01-04 09:07:15,"{'rating': None, 'rating_cat': None}"
+46,CORE_SCENE_LEAVE,8,1,3,2020-01-04 10:13:21,"{'rating': None, 'rating_cat': None}"
+47,CORE_SCENE_RATE,8,1,3,2020-01-04 10:15:00,"{'rating': 3, 'rating_cat': 'Cat5'}"
+48,CORE_SCENE_JOIN,9,1,3,2020-01-04 10:38:36,"{'rating': None, 'rating_cat': None}"
+49,CORE_SCENE_LEAVE,9,1,3,2020-01-04 14:34:22,"{'rating': None, 'rating_cat': None}"
+50,CORE_SCENE_RATE,9,1,3,2020-01-04 14:36:17,"{'rating': 4, 'rating_cat': 'Cat5'}"
+51,CORE_SCENE_JOIN,0,2,16,2020-01-05 11:53:41,"{'rating': None, 'rating_cat': None}"
+52,CORE_SCENE_LEAVE,0,2,16,2020-01-05 15:45:33,"{'rating': None, 'rating_cat': None}"
+53,CORE_SCENE_RATE,0,2,16,2020-01-05 15:46:37,"{'rating': 4, 'rating_cat': 'Cat5'}"
+54,CORE_SCENE_JOIN,1,2,16,2020-01-05 13:07:04,"{'rating': None, 'rating_cat': None}"
+55,CORE_SCENE_LEAVE,1,2,16,2020-01-05 16:34:09,"{'rating': None, 'rating_cat': None}"
+56,CORE_SCENE_RATE,1,2,16,2020-01-05 16:35:00,"{'rating': 5, 'rating_cat': 'Cat6'}"
+57,CORE_SCENE_JOIN,2,2,16,2020-01-05 11:46:12,"{'rating': None, 'rating_cat': None}"
+58,CORE_SCENE_LEAVE,2,2,16,2020-01-05 13:08:58,"{'rating': None, 'rating_cat': None}"
+59,CORE_SCENE_RATE,2,2,16,2020-01-05 13:10:32,"{'rating': 0, 'rating_cat': 'Collab Tools'}"
+60,CORE_SCENE_JOIN,3,2,16,2020-01-05 12:38:58,"{'rating': None, 'rating_cat': None}"
+61,CORE_SCENE_LEAVE,3,2,16,2020-01-05 16:35:49,"{'rating': None, 'rating_cat': None}"
+62,CORE_SCENE_RATE,3,2,16,2020-01-05 16:37:35,"{'rating': 4, 'rating_cat': 'Cat5'}"
+63,CORE_SCENE_JOIN,4,2,16,2020-01-05 10:31:17,"{'rating': None, 'rating_cat': None}"
+64,CORE_SCENE_LEAVE,4,2,16,2020-01-05 14:00:15,"{'rating': None, 'rating_cat': None}"
+65,CORE_SCENE_JOIN,5,2,16,2020-01-05 11:02:56,"{'rating': None, 'rating_cat': None}"
+66,CORE_SCENE_LEAVE,5,2,16,2020-01-05 13:05:17,"{'rating': None, 'rating_cat': None}"
+67,CORE_SCENE_RATE,5,2,16,2020-01-05 13:06:08,"{'rating': 2, 'rating_cat': 'Chat'}"
+68,CORE_SCENE_JOIN,6,2,16,2020-01-05 10:49:13,"{'rating': None, 'rating_cat': None}"
+69,CORE_SCENE_LEAVE,6,2,16,2020-01-05 14:30:24,"{'rating': None, 'rating_cat': None}"
+70,CORE_SCENE_RATE,6,2,16,2020-01-05 14:30:29,"{'rating': 2, 'rating_cat': 'Chat'}"
+71,CORE_SCENE_JOIN,7,2,16,2020-01-05 11:41:29,"{'rating': None, 'rating_cat': None}"
+72,CORE_SCENE_LEAVE,7,2,16,2020-01-05 14:27:59,"{'rating': None, 'rating_cat': None}"
+73,CORE_SCENE_RATE,7,2,16,2020-01-05 14:28:06,"{'rating': 5, 'rating_cat': 'Cat5'}"
+74,CORE_SCENE_JOIN,8,2,16,2020-01-05 09:53:50,"{'rating': None, 'rating_cat': None}"
+75,CORE_SCENE_LEAVE,8,2,16,2020-01-05 12:15:38,"{'rating': None, 'rating_cat': None}"
+76,CORE_SCENE_JOIN,9,2,16,2020-01-05 09:08:14,"{'rating': None, 'rating_cat': None}"
+77,CORE_SCENE_LEAVE,9,2,16,2020-01-05 14:20:32,"{'rating': None, 'rating_cat': None}"
+78,CORE_SCENE_JOIN,0,3,6,2020-01-06 09:02:19,"{'rating': None, 'rating_cat': None}"
+79,CORE_SCENE_LEAVE,0,3,6,2020-01-06 11:25:00,"{'rating': None, 'rating_cat': None}"
+80,CORE_SCENE_RATE,0,3,6,2020-01-06 11:25:16,"{'rating': 2, 'rating_cat': 'Cat6'}"
+81,CORE_SCENE_JOIN,1,3,6,2020-01-06 10:28:36,"{'rating': None, 'rating_cat': None}"
+82,CORE_SCENE_LEAVE,1,3,6,2020-01-06 11:34:33,"{'rating': None, 'rating_cat': None}"
+83,CORE_SCENE_JOIN,2,3,6,2020-01-06 11:09:12,"{'rating': None, 'rating_cat': None}"
+84,CORE_SCENE_LEAVE,2,3,6,2020-01-06 14:53:51,"{'rating': None, 'rating_cat': None}"
+85,CORE_SCENE_RATE,2,3,6,2020-01-06 14:55:21,"{'rating': 5, 'rating_cat': 'Cat6'}"
+86,CORE_SCENE_JOIN,3,3,6,2020-01-06 11:00:10,"{'rating': None, 'rating_cat': None}"
+87,CORE_SCENE_LEAVE,3,3,6,2020-01-06 13:51:49,"{'rating': None, 'rating_cat': None}"
+88,CORE_SCENE_RATE,3,3,6,2020-01-06 13:53:32,"{'rating': 5, 'rating_cat': 'Cat6'}"
+89,CORE_SCENE_JOIN,4,3,6,2020-01-06 11:39:43,"{'rating': None, 'rating_cat': None}"
+90,CORE_SCENE_LEAVE,4,3,6,2020-01-06 12:19:22,"{'rating': None, 'rating_cat': None}"
+91,CORE_SCENE_JOIN,5,3,6,2020-01-06 11:07:32,"{'rating': None, 'rating_cat': None}"
+92,CORE_SCENE_LEAVE,5,3,6,2020-01-06 14:40:36,"{'rating': None, 'rating_cat': None}"
+93,CORE_SCENE_JOIN,6,3,6,2020-01-06 10:57:07,"{'rating': None, 'rating_cat': None}"
+94,CORE_SCENE_LEAVE,6,3,6,2020-01-06 11:34:21,"{'rating': None, 'rating_cat': None}"
+95,CORE_SCENE_RATE,6,3,6,2020-01-06 11:36:10,"{'rating': 1, 'rating_cat': 'Collab Tools'}"
+96,CORE_SCENE_JOIN,7,3,6,2020-01-06 09:06:49,"{'rating': None, 'rating_cat': None}"
+97,CORE_SCENE_LEAVE,7,3,6,2020-01-06 09:43:01,"{'rating': None, 'rating_cat': None}"
+98,CORE_SCENE_JOIN,8,3,6,2020-01-06 10:21:04,"{'rating': None, 'rating_cat': None}"
+99,CORE_SCENE_LEAVE,8,3,6,2020-01-06 12:24:10,"{'rating': None, 'rating_cat': None}"
+100,CORE_SCENE_RATE,8,3,6,2020-01-06 12:24:46,"{'rating': 4, 'rating_cat': 'Cat6'}"
+101,CORE_SCENE_JOIN,9,3,6,2020-01-06 11:26:49,"{'rating': None, 'rating_cat': None}"
+102,CORE_SCENE_LEAVE,9,3,6,2020-01-06 11:50:57,"{'rating': None, 'rating_cat': None}"
+103,CORE_SCENE_JOIN,0,4,12,2020-01-07 10:49:50,"{'rating': None, 'rating_cat': None}"
+104,CORE_SCENE_LEAVE,0,4,12,2020-01-07 13:43:29,"{'rating': None, 'rating_cat': None}"
+105,CORE_SCENE_JOIN,1,4,12,2020-01-07 10:45:17,"{'rating': None, 'rating_cat': None}"
+106,CORE_SCENE_LEAVE,1,4,12,2020-01-07 14:18:47,"{'rating': None, 'rating_cat': None}"
+107,CORE_SCENE_RATE,1,4,12,2020-01-07 14:19:35,"{'rating': 3, 'rating_cat': 'Cat5'}"
+108,CORE_SCENE_JOIN,2,4,12,2020-01-07 10:06:07,"{'rating': None, 'rating_cat': None}"
+109,CORE_SCENE_LEAVE,2,4,12,2020-01-07 13:56:24,"{'rating': None, 'rating_cat': None}"
+110,CORE_SCENE_RATE,2,4,12,2020-01-07 13:57:11,"{'rating': 1, 'rating_cat': 'Collab Tools'}"
+111,CORE_SCENE_JOIN,3,4,12,2020-01-07 10:40:18,"{'rating': None, 'rating_cat': None}"
+112,CORE_SCENE_LEAVE,3,4,12,2020-01-07 13:00:40,"{'rating': None, 'rating_cat': None}"
+113,CORE_SCENE_RATE,3,4,12,2020-01-07 13:01:08,"{'rating': 1, 'rating_cat': 'Collab Tools'}"
+114,CORE_SCENE_JOIN,4,4,12,2020-01-07 11:42:34,"{'rating': None, 'rating_cat': None}"
+115,CORE_SCENE_LEAVE,4,4,12,2020-01-07 14:14:43,"{'rating': None, 'rating_cat': None}"
+116,CORE_SCENE_JOIN,5,4,12,2020-01-07 11:06:50,"{'rating': None, 'rating_cat': None}"
+117,CORE_SCENE_LEAVE,5,4,12,2020-01-07 13:41:22,"{'rating': None, 'rating_cat': None}"
+118,CORE_SCENE_JOIN,6,4,12,2020-01-07 13:21:05,"{'rating': None, 'rating_cat': None}"
+119,CORE_SCENE_LEAVE,6,4,12,2020-01-07 14:30:51,"{'rating': None, 'rating_cat': None}"
+120,CORE_SCENE_JOIN,7,4,12,2020-01-07 11:13:40,"{'rating': None, 'rating_cat': None}"
+121,CORE_SCENE_LEAVE,7,4,12,2020-01-07 14:24:05,"{'rating': None, 'rating_cat': None}"
+122,CORE_SCENE_JOIN,8,4,12,2020-01-07 10:00:36,"{'rating': None, 'rating_cat': None}"
+123,CORE_SCENE_LEAVE,8,4,12,2020-01-07 13:23:28,"{'rating': None, 'rating_cat': None}"
+124,CORE_SCENE_JOIN,9,4,12,2020-01-07 11:52:56,"{'rating': None, 'rating_cat': None}"
+125,CORE_SCENE_LEAVE,9,4,12,2020-01-07 14:05:56,"{'rating': None, 'rating_cat': None}"
+126,CORE_SCENE_RATE,9,4,12,2020-01-07 14:06:59,"{'rating': 3, 'rating_cat': 'Cat6'}"
+127,CORE_SCENE_JOIN,0,5,18,2020-01-08 10:23:56,"{'rating': None, 'rating_cat': None}"
+128,CORE_SCENE_LEAVE,0,5,18,2020-01-08 12:19:42,"{'rating': None, 'rating_cat': None}"
+129,CORE_SCENE_RATE,0,5,18,2020-01-08 12:21:21,"{'rating': 4, 'rating_cat': 'Chat'}"
+130,CORE_SCENE_JOIN,1,5,18,2020-01-08 11:26:22,"{'rating': None, 'rating_cat': None}"
+131,CORE_SCENE_LEAVE,1,5,18,2020-01-08 13:22:01,"{'rating': None, 'rating_cat': None}"
+132,CORE_SCENE_RATE,1,5,18,2020-01-08 13:22:15,"{'rating': 5, 'rating_cat': 'Cat5'}"
+133,CORE_SCENE_JOIN,2,5,18,2020-01-08 11:03:40,"{'rating': None, 'rating_cat': None}"
+134,CORE_SCENE_LEAVE,2,5,18,2020-01-08 12:33:33,"{'rating': None, 'rating_cat': None}"
+135,CORE_SCENE_JOIN,3,5,18,2020-01-08 10:27:50,"{'rating': None, 'rating_cat': None}"
+136,CORE_SCENE_LEAVE,3,5,18,2020-01-08 14:09:18,"{'rating': None, 'rating_cat': None}"
+137,CORE_SCENE_JOIN,4,5,18,2020-01-08 12:52:51,"{'rating': None, 'rating_cat': None}"
+138,CORE_SCENE_LEAVE,4,5,18,2020-01-08 15:42:21,"{'rating': None, 'rating_cat': None}"
+139,CORE_SCENE_JOIN,5,5,18,2020-01-08 11:47:42,"{'rating': None, 'rating_cat': None}"
+140,CORE_SCENE_LEAVE,5,5,18,2020-01-08 12:41:09,"{'rating': None, 'rating_cat': None}"
+141,CORE_SCENE_JOIN,6,5,18,2020-01-08 09:55:53,"{'rating': None, 'rating_cat': None}"
+142,CORE_SCENE_LEAVE,6,5,18,2020-01-08 12:47:54,"{'rating': None, 'rating_cat': None}"
+143,CORE_SCENE_JOIN,7,5,18,2020-01-08 12:50:32,"{'rating': None, 'rating_cat': None}"
+144,CORE_SCENE_LEAVE,7,5,18,2020-01-08 16:13:08,"{'rating': None, 'rating_cat': None}"
+145,CORE_SCENE_JOIN,8,5,18,2020-01-08 09:48:03,"{'rating': None, 'rating_cat': None}"
+146,CORE_SCENE_LEAVE,8,5,18,2020-01-08 11:17:35,"{'rating': None, 'rating_cat': None}"
+147,CORE_SCENE_JOIN,9,5,18,2020-01-08 10:17:57,"{'rating': None, 'rating_cat': None}"
+148,CORE_SCENE_LEAVE,9,5,18,2020-01-08 12:35:20,"{'rating': None, 'rating_cat': None}"
+149,CORE_SCENE_JOIN,0,6,0,2020-01-09 11:00:12,"{'rating': None, 'rating_cat': None}"
+150,CORE_SCENE_LEAVE,0,6,0,2020-01-09 11:13:30,"{'rating': None, 'rating_cat': None}"
+151,CORE_SCENE_JOIN,1,6,0,2020-01-09 10:03:12,"{'rating': None, 'rating_cat': None}"
+152,CORE_SCENE_LEAVE,1,6,0,2020-01-09 11:21:57,"{'rating': None, 'rating_cat': None}"
+153,CORE_SCENE_JOIN,2,6,0,2020-01-09 09:30:40,"{'rating': None, 'rating_cat': None}"
+154,CORE_SCENE_LEAVE,2,6,0,2020-01-09 13:24:12,"{'rating': None, 'rating_cat': None}"
+155,CORE_SCENE_RATE,2,6,0,2020-01-09 13:24:46,"{'rating': 0, 'rating_cat': 'Collab Tools'}"
+156,CORE_SCENE_JOIN,3,6,0,2020-01-09 12:54:43,"{'rating': None, 'rating_cat': None}"
+157,CORE_SCENE_LEAVE,3,6,0,2020-01-09 14:29:04,"{'rating': None, 'rating_cat': None}"
+158,CORE_SCENE_RATE,3,6,0,2020-01-09 14:29:30,"{'rating': 4, 'rating_cat': 'Cat6'}"
+159,CORE_SCENE_JOIN,4,6,0,2020-01-09 10:42:41,"{'rating': None, 'rating_cat': None}"
+160,CORE_SCENE_LEAVE,4,6,0,2020-01-09 11:03:16,"{'rating': None, 'rating_cat': None}"
+161,CORE_SCENE_JOIN,5,6,0,2020-01-09 11:51:25,"{'rating': None, 'rating_cat': None}"
+162,CORE_SCENE_LEAVE,5,6,0,2020-01-09 16:01:14,"{'rating': None, 'rating_cat': None}"
+163,CORE_SCENE_RATE,5,6,0,2020-01-09 16:02:17,"{'rating': 0, 'rating_cat': 'Network'}"
+164,CORE_SCENE_JOIN,6,6,0,2020-01-09 10:01:25,"{'rating': None, 'rating_cat': None}"
+165,CORE_SCENE_LEAVE,6,6,0,2020-01-09 12:50:50,"{'rating': None, 'rating_cat': None}"
+166,CORE_SCENE_RATE,6,6,0,2020-01-09 12:52:18,"{'rating': 0, 'rating_cat': 'Network'}"
+167,CORE_SCENE_JOIN,7,6,0,2020-01-09 12:51:39,"{'rating': None, 'rating_cat': None}"
+168,CORE_SCENE_LEAVE,7,6,0,2020-01-09 14:52:09,"{'rating': None, 'rating_cat': None}"
+169,CORE_SCENE_JOIN,8,6,0,2020-01-09 12:33:41,"{'rating': None, 'rating_cat': None}"
+170,CORE_SCENE_LEAVE,8,6,0,2020-01-09 18:09:16,"{'rating': None, 'rating_cat': None}"
+171,CORE_SCENE_RATE,8,6,0,2020-01-09 18:09:34,"{'rating': 0, 'rating_cat': 'Network'}"
+172,CORE_SCENE_JOIN,9,6,0,2020-01-09 09:10:11,"{'rating': None, 'rating_cat': None}"
+173,CORE_SCENE_LEAVE,9,6,0,2020-01-09 11:22:16,"{'rating': None, 'rating_cat': None}"
