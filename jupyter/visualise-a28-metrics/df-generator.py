@@ -42,6 +42,11 @@ for i in range(7): # number of sessions
     if True: #i % 10 == 0: 
         timestamp = datetime.datetime.strptime(
             str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(days=1)
+        
+        #skip this day if weekend
+        if timestamp.weekday() >= 5:
+            continue
+    
     for j in range(10): # userid
         events_this_sesh = random.randint(2, 3) # randomly choose if this user will rate or not
         userId = j
