@@ -34,17 +34,17 @@ header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp', 'data']
 data_csv = list()
 data_json = list()
 id = 0
-timestamp = datetime.datetime(2020, 1, 2, 9, 0, 0, 0)
+timestamp = datetime.datetime(2021, 9, 2, 9, 0, 0, 0)
 # random_date("2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
 
-for i in range(7): # number of sessions
+for i in range(77): # number of sessions
     sceneId = random.randrange(20)
     if True: #i % 10 == 0: 
         timestamp = datetime.datetime.strptime(
             str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(days=1)
         
         #skip this day if weekend
-        if timestamp.weekday() >= 5:
+        if timestamp.weekday() >= 5 or timestamp > datetime.datetime.now():
             continue
     
     for j in range(10): # userid
