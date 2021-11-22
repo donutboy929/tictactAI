@@ -5,6 +5,7 @@ import random
 import time
 import datetime
 from numpy import random as rnd
+import uuid
 
 # helper functions
 def str_time_prop(start, end, time_format, prop):
@@ -30,15 +31,21 @@ def random_date(start, end, prop):
 
 # start
 rating_categories = ['Network', 'Collab Tools', 'Chat', 'Cat4', 'Cat5', 'Cat6']
-header = ['id', 'type', 'userId', 'sessionId', 'sceneId', 'timestamp', 'data']
+header = ['id', 'type', 'userId', 'sceneId', 'timestamp', 'data']
 data_csv = list()
 data_json = list()
 id = 0
 timestamp = datetime.datetime(2021, 9, 2, 9, 0, 0, 0)
 # random_date("2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
 
+userId_arr = []
+# generate 10 users:
+for i in range(10):
+    userId_arr.append(str(uuid.uuid4()))
+
+
 for i in range(77): # number of sessions
-    sceneId = random.randrange(20)
+    sceneId = str(uuid.uuid4())
     if True: #i % 10 == 0: 
         timestamp = datetime.datetime.strptime(
             str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(days=1)
@@ -49,30 +56,29 @@ for i in range(77): # number of sessions
     
     for j in range(10): # userid
         events_this_sesh = random.randint(2, 3) # randomly choose if this user will rate or not
-        userId = j
-        sessionId = i
+        userId = userId_arr[j - 1]
         this_timestamp = datetime.datetime.strptime(
             str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(hours=int(rnd.binomial(n=4, p=0.4, size=1)[0]), minutes=random.randrange(59), seconds=random.randrange(59))
         data = {}
         
         for k in range(events_this_sesh):
-            id = id + 1
+            id = str(uuid.uuid4())
             type = ''
             data = {}
             if k == 0:
                 type = 'CORE_SCENE_JOIN' 
-                data['rating'] = None
-                data['rating_cat'] = None
+                data['ratingValue'] = None
+                data['ratingCategory'] = None
             elif k == 1:
                 type = 'CORE_SCENE_LEAVE'
-                data['rating'] = None
-                data['rating_cat'] = None
+                data['ratingValue'] = None
+                data['ratingCategory'] = None
             elif k==2:
                 type = 'CORE_SCENE_RATE'
                 random_index = random.randint(0, len(rating_categories) - 1)
-                data['rating'] = rnd.binomial(
-                    n=5, p=random_index/len(rating_categories), size=1)[0]
-                data['rating_cat'] = rating_categories[random_index]
+                data['ratingValue'] = int(rnd.binomial(
+                    n=5, p=random_index/len(rating_categories), size=1)[0])
+                data['ratingCategory'] = rating_categories[random_index]
 
             if k == 1:
                 this_timestamp = datetime.datetime.strptime(
@@ -81,10 +87,10 @@ for i in range(77): # number of sessions
                 this_timestamp = datetime.datetime.strptime(
                     str(this_timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(minutes=random.randrange(2), seconds=random.randrange(59))
 
-            data_csv.append([id, type, userId, sessionId, sceneId, datetime.datetime.strptime(
+            data_csv.append([id, type, userId, sceneId, datetime.datetime.strptime(
                 str(this_timestamp), '%Y-%m-%d %H:%M:%S'), data])
             
-            temp_json_vals = [id, type, userId, sessionId, sceneId, time.mktime(datetime.datetime.strptime(
+            temp_json_vals = [id, type, userId, sceneId, time.mktime(datetime.datetime.strptime(
                 str(this_timestamp), '%Y-%m-%d %H:%M:%S').timetuple()), data]
             json_dict = dict(zip(header, temp_json_vals))
             data_json.append(json_dict)
