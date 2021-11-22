@@ -35,7 +35,7 @@ header = ['id', 'type', 'userId', 'sceneId', 'timestamp', 'data']
 data_csv = list()
 data_json = list()
 id = 0
-timestamp = datetime.datetime(2021, 9, 2, 9, 0, 0, 0)
+timestamp = datetime.datetime(2021, 6, 2, 9, 0, 0, 0)
 # random_date("2020-01-01 01:30:00", "2024-12-01 05:45:44",  random.random())
 
 userId_arr = []
@@ -44,15 +44,14 @@ for i in range(10):
     userId_arr.append(str(uuid.uuid4()))
 
 
-for i in range(77): # number of sessions
+for i in range(500): # number of sessions
     sceneId = str(uuid.uuid4())
-    if True: #i % 10 == 0: 
-        timestamp = datetime.datetime.strptime(
-            str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(days=1)
-        
-        #skip this day if weekend
-        if timestamp.weekday() >= 5 or timestamp > datetime.datetime.now():
-            continue
+    timestamp = datetime.datetime.strptime(
+        str(timestamp), '%Y-%m-%d %H:%M:%S') + datetime.timedelta(days=1)
+
+    #skip this day if weekend
+    if timestamp.weekday() >= 5 or timestamp > datetime.datetime.now():
+        continue
     
     for j in range(10): # userid
         events_this_sesh = random.randint(2, 3) # randomly choose if this user will rate or not
